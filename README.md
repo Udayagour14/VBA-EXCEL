@@ -12,8 +12,6 @@ Logical operators compare values and make decisions based on the results. They i
  Sub AddSheetAndSaveWorkbook()
     ' Adds a new worksheet to the active workbook
    ActiveWorkbook.Sheets.Add
-    
-    ' Saves the workbook
     ActiveWorkbook.Save
 End Sub
 
