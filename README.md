@@ -1,27 +1,5 @@
 # VBA-EXCEL
 Visual Basic for Applications (VBA) is a programming language used to automate tasks and enhance the functionality of Microsoft Office applications. You can use it with Excel, Word, Access, and other Office programs, althought it’s probably most widely used for creating custom macros in Excel
-
-Automating Tasks with VBA Excel Macros
-Macros are essentially a series of instructions created in VBA to perform repetitive tasks. Using a macro, you can record a series of actions, like formatting cells, copying data, or performing calculations. After saving the macro, we can re-apply these actions with a single click. This saves time, especially when working with large datasets or tasks.
-
-For example, if you often format your reports the same way, you can record a macro that applies all the necessary formatting steps instead of doing it manually each time. Later, you can run this macro to format new data. We showed a couple of basic examples, but imagine doing more small actions with just one click. Even if you don’t have coding experience, you can still automate routine tasks to streamline workflow and reduce the chances of errors that can occur when performing repetitive actions manually.
-
-Recording an Excel macro 
-Let’s see how you can record a macro to make some formatting changes:
-Go to the Developer tab > Record Macro button. 
-A dialog box will appear. Give your macro a name like I did FormatCells.
-Assign a keyboard shortcut if desired. I assigned it Ctrl+S.
-Click OK to start recording.
-![image](https://github.com/user-attachments/assets/be87d93d-d30c-4d1d-998c-3a2495a3d629)
-
-
-
-Now, if you have another dataset in another sheet and want the same formatting in that dataset, too, instead of formatting the whole thing again, press the shortcut key you created (in my case, it’s Ctrl+S). Otherwise, go to sheet2 > Developer tab > Macros > Run to do it manually.
-
-![image](https://github.com/user-attachments/assets/a112cea4-4046-4079-abe4-1fad62d21b01)
-
-
-
 ### list of some of the most used terms you'll encounter as you start automating tasks and building custom solutions in Excel.
 Modules are the containers for VBA code, where procedures and functions are stored.
 Objects are the building blocks of VBA. They represent elements like workbooks, worksheets, and cells.
@@ -48,3 +26,22 @@ Sub RenameActiveSheet()
 End Sub
 
 ![image](https://github.com/user-attachments/assets/cf9561ea-90b6-4f92-b768-0120d9bad111)
+
+Automating Tasks with VBA Excel Macros
+Macros are essentially a series of instructions created in VBA to perform repetitive tasks. Using a macro, you can record a series of actions, like formatting cells, copying data, or performing calculations. After saving the macro, we can re-apply these actions with a single click. This saves time, especially when working with large datasets or tasks.
+
+For example, if you often format your reports the same way, you can record a macro that applies all the necessary formatting steps instead of doing it manually each time. Later, you can run this macro to format new data. We showed a couple of basic examples, but imagine doing more small actions with just one click. Even if you don’t have coding experience, you can still automate routine tasks to streamline workflow and reduce the chances of errors that can occur when performing repetitive actions manually.
+
+Recording an Excel macro 
+Let’s see how you can record a macro to make some formatting changes:
+Go to the Developer tab > Record Macro button. 
+A dialog box will appear. Give your macro a name like I did FormatCells.
+Assign a keyboard shortcut if desired. I assigned it Ctrl+S.
+Click OK to start recording.
+![image](https://github.com/user-attachments/assets/be87d93d-d30c-4d1d-998c-3a2495a3d629)
+
+
+
+Now, if you have another dataset in another sheet and want the same formatting in that dataset, too, instead of formatting the whole thing again, press the shortcut key you created (in my case, it’s Ctrl+S). Otherwise, go to sheet2 > Developer tab > Macros > Run to do it manually.
+
+![image](https://github.com/user-attachments/assets/a112cea4-4046-4079-abe4-1fad62d21b01)
