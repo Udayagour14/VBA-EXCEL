@@ -12,7 +12,9 @@ Go to the Developer tab > Record Macro button.
 A dialog box will appear. Give your macro a name like I did FormatCells.
 Assign a keyboard shortcut if desired. I assigned it Ctrl+S.
 Click OK to start recording.
-https://lh7-rt.googleusercontent.com/docsz/AD_4nXfe-KufNQyRSdaQiXLh1CLQpzLAQrGHcSlLUhPlfvN9j3M0o-9xBaiS3iPrNOZLTi2uBJk5rcIW7GxOTJXa8qi_30ExfgiQo8O9v95DXtMkYUHJl5JHqFDX3xghn0_ItLS56pSBO3Z_jJwA19GSxHi6tENx?key=hHFvNitH0z1EOSmZcAns9Q
+![image](https://github.com/user-attachments/assets/be87d93d-d30c-4d1d-998c-3a2495a3d629)
+
+
 
 Now, if you have another dataset in another sheet and want the same formatting in that dataset, too, instead of formatting the whole thing again, press the shortcut key you created (in my case, it’s Ctrl+S). Otherwise, go to sheet2 > Developer tab > Macros > Run to do it manually.
 
