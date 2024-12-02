@@ -9,7 +9,7 @@ Variables store data that can be used and manipulated within your code.
 Logical operators compare values and make decisions based on the results. They include operators like And, Or, and Not.
 
 #### The Workbook object is any Excel file that’s currently open. It allows us to perform actions such as adding new sheets or saving the existing sheets within the workbook. In this example, I want to add a sheet to the currently opened sheet and then save it. At first, I had Sheet1. To add another sheet, I write the following code:
- Sub AddSheetAndSaveWorkbook()
+Sub AddSheetAndSaveWorkbook()
     ' Adds a new worksheet to the active workbook
    ActiveWorkbook.Sheets.Add
     ActiveWorkbook.Save
@@ -44,12 +44,14 @@ Click OK to start recording.
 Now, if you have another dataset in another sheet and want the same formatting in that dataset, too, instead of formatting the whole thing again, press the shortcut key you created (in my case, it’s Ctrl+S). Otherwise, go to sheet2 > Developer tab > Macros > Run to do it manually.
 ![image](https://github.com/user-attachments/assets/a112cea4-4046-4079-abe4-1fad62d21b01)
 ### loop
+
 Sub LoopThroughRange()
     Dim cell As Range
     For Each cell In Range("A1:A5")
         cell.Value = "Hello " & cell.Row
     Next cell
 End Sub
+
 
 Private Sub Constant_demo_Click()  
    'fruits is an array
