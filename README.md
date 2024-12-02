@@ -43,3 +43,13 @@ Click OK to start recording.
 
 Now, if you have another dataset in another sheet and want the same formatting in that dataset, too, instead of formatting the whole thing again, press the shortcut key you created (in my case, it’s Ctrl+S). Otherwise, go to sheet2 > Developer tab > Macros > Run to do it manually.
 ![image](https://github.com/user-attachments/assets/a112cea4-4046-4079-abe4-1fad62d21b01)
+
+Sub LoopThroughRange()
+    Dim cell As Range
+    For Each cell In Range("A1:A5")
+        cell.Value = "Hello " & cell.Row
+    Next cell
+End Sub
+
+
+
