@@ -10,17 +10,17 @@ Logical operators compare values and make decisions based on the results. They i
 
 #### The Workbook object is any Excel file that’s currently open. It allows us to perform actions such as adding new sheets or saving the existing sheets within the workbook. In this example, I want to add a sheet to the currently opened sheet and then save it. At first, I had Sheet1. To add another sheet, I write the following code:
 Sub AddSheetAndSaveWorkbook()
-    ' Adds a new worksheet to the active workbook
-   ActiveWorkbook.Sheets.Add
-    ActiveWorkbook.Save
+  'Adds a new worksheet to the active workbook
+  ActiveWorkbook.Sheets.Add
+  ActiveWorkbook.Save
 End Sub
 
 ![image](https://github.com/user-attachments/assets/26c6223e-8ab2-4383-9b5d-45e112022b66)
 
 #### The Worksheet object represents the currently active sheet in Excel. With this, you can modify or manipulate the active sheet. For example, I want to change the name of the active sheet. To do so, I enter the following code:
 Sub RenameActiveSheet()
-    ' Renames the active sheet to "Sales Report".
-    ActiveSheet.Name = "Sales Report"
+   ' Renames the active sheet to "Sales Report".
+ ActiveSheet.Name = "Sales Report"
 End Sub
 
 ![image](https://github.com/user-attachments/assets/cf9561ea-90b6-4f92-b768-0120d9bad111)
@@ -46,16 +46,16 @@ Now, if you have another dataset in another sheet and want the same formatting i
 ### loop
 
 Sub LoopThroughRange()
-    Dim cell As Range
-    For Each cell In Range("A1:A5")
-        cell.Value = "Hello " & cell.Row
-    Next cell
+Dim cell As Range
+For Each cell In Range("A1:A5")
+cell.Value = "Hello " & cell.Row
+Next cell
 End Sub
 
 
 Private Sub Constant_demo_Click()  
-   'fruits is an array
-   fruits = Array("apple", "orange", "cherries")
+  'fruits is an array
+  fruits = Array("apple", "orange", "cherries")
    Dim fruitnames As Variant
  
    'iterating using For each loop.
